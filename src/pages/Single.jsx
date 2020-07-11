@@ -8,7 +8,7 @@ const Single = () => {
 	const [Data, SetData] = React.useState(null);
 
 	useEffect(() => {
-		Axios(`https://mysterious-journey-85780.herokuapp.com/api/api/${params.id}`)
+		Axios(`https://mysterious-journey-85780.herokuapp.com/api/${params.id}`)
 			.then((DataResponse) => {
 				SetData(DataResponse.data);
 			})
