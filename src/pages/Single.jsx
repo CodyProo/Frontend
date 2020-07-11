@@ -25,7 +25,7 @@ const Single = () => {
 						<div className='entry2'>
 							<a href='single.html'>
 								<img
-									src={`http://localhost:3001/image/${Data.profile}`}
+									src={`https://mysterious-journey-85780.herokuapp.com/image/${Data.profile}`}
 									alt='Image'
 									className='img-fluid rounded'
 								/>
